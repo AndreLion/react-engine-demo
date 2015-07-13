@@ -17,16 +17,13 @@ module.exports = React.createClass({
         <nav className='left-nav-links'>
           <ul>
             <li className='left-nav-link' id='nav-section1'>
-              <Link to='section1' className={this.props.navSelection==='nav-section1'?activeClass:''} 
-                    activeClassName={activeClass}>Section 1</Link>
+              <Link to='section1' activeClassName={activeClass}>Section 1</Link>
             </li>
             <li className='left-nav-link' id='nav-section2'>
-              <Link to='section2' className={this.props.navSelection==='nav-section2'?activeClass:''} 
-                    activeClassName={activeClass}>Section 2</Link>
+              <Link to='section2' activeClassName={activeClass}>Section 2</Link>
             </li>
             <li className='left-nav-link' id='nav-section3'>
-              <Link to='section3' className={this.props.navSelection==='nav-section3'?activeClass:''} 
-                    activeClassName={activeClass}>Section 3</Link>
+              <Link to='section3' activeClassName={activeClass}>Section 3</Link>
             </li>       
           </ul>
         </nav>
